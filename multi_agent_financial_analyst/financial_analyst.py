@@ -163,9 +163,9 @@ def create_agents_and_tasks(symbol: str):
     return crew
 
 # Streamlit UI
-st.set_page_config(page_title="Multi-Agent AI Financial Analyst", layout="wide")
+st.set_page_config(page_title="STOCKIFY", layout="wide")
 
-st.title("🎯 Multi-Agent AI Financial Analyst")
+st.title("🎯 STOCKIFY")
 
 # Sidebar
 with st.sidebar:
