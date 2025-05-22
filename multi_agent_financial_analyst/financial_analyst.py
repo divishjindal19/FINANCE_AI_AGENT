@@ -202,7 +202,7 @@ if analyze_button:
             # Create and run the crew
             crew = create_agents_and_tasks(symbol)
             result = crew.kickoff()
-            # Convert the CrewOutput to string if needed
+            
             if hasattr(result, 'raw'):
                 st.session_state.report = result.raw
             else:
@@ -216,7 +216,7 @@ if st.session_state.analysis_complete and st.session_state.report:
     st.markdown("### Analysis Report")
     st.markdown(st.session_state.report)
     
-    # Download button
+
     st.download_button(
         label="Download Report",
         data=st.session_state.report,
