@@ -1,6 +1,6 @@
 # 🎯 Multi-Agent AI Financial Analyst
 
-Welcome to the **Multi-Agent AI Financial Analyst** — an advanced financial analysis system that uses **CrewAI** agents, powered by **SambaNova** infrastructure and the **Llama 4** large language model. It fetches real-time financial data via **YFinance** and provides intelligent, multi-perspective financial insights.
+Welcome to the **Multi-Agent AI Financial Analyst** — an advanced financial analysis system that uses **CrewAI** agents, powered by **SambaNova** infrastructure and the **Llama 4** large language model. It fetches real-time financial data via **YFinance** and provides intelligent, multi-perspective financial insights
 
 
 ## 🚀 Features
